@@ -1,0 +1,22 @@
+/* Navbar*/
+
+.nav {
+	background-color: black;
+	height: 100px;
+}
+
+.navItem a {
+	color: #ffd700;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 0.09rem;
+}
+
+.navItem a:hover {
+	color: white;
+}
+
+.navItem {
+	font-size: 1.2rem;
+}
