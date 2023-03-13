@@ -23,24 +23,19 @@ const Nav = () => {
 					</button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav ms-auto">
-							<li className={`${navStyles.navItem} nav-item me-5`}>
-								<Link className="nav-link" aria-current="page" href="/who">
-									Who
+							<li className={`${navStyles.navItem} nav-item me-4`}>
+								<Link className="nav-link" href="/products">
+									Products
 								</Link>
 							</li>
 							<li className={`${navStyles.navItem} nav-item me-4`}>
-								<Link className="nav-link" href="/about">
+								<Link className="nav-link" href="#WhatIsGraux">
 									About
 								</Link>
 							</li>
 							<li className={`${navStyles.navItem} nav-item me-4`}>
-								<Link className="nav-link" href="/contact">
+								<Link className="nav-link" href="#Contact">
 									Contact Us
-								</Link>
-							</li>
-							<li className={`${navStyles.navItem} nav-item me-3`}>
-								<Link className="nav-link" href="/contact">
-									Products
 								</Link>
 							</li>
 						</ul>

@@ -4,7 +4,7 @@ import footerStyles from "../styles/Footer.module.css";
 
 const Footer = () => {
 	return (
-		<footer className={footerStyles.footer}>
+		<footer className={footerStyles.footer} id="Contact">
 			<div>
 				<Image src={`/images/graux.png`} alt="" width={200} height={82} className={footerStyles.footerImage} />
 				<h5 className={footerStyles.copy}>

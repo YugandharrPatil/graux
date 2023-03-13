@@ -35,7 +35,7 @@ export default function Home() {
 				</div>
 			</main>
 			{/* What is Graux */}
-			<main className={styles.what}>
+			<main className={styles.what} id="WhatIsGraux">
 				<h2>What is Graux?</h2>
 				<p className="pt-5">
 					Graux is an interoperability protocol. It will help in providing faster and user friendly system where you can build Dapps on multi-chain
