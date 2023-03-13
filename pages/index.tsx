@@ -12,18 +12,14 @@ export default function Home() {
 				<title>Graux</title>
 				<meta name="keywords" content="" />
 			</Head>
-
 			{/* heading */}
-
 			<main className={styles.heading}>
 				<Image src={"/images/solana.png"} alt="" width={150} height={150} />
 				<h1>
 					Solana <br /> Solution for <br /> Blockchains
 				</h1>
 			</main>
-
 			{/* stats */}
-
 			<main className={styles.stats}>
 				<div>
 					<h1>Transaction Speed (TPS)</h1>
@@ -38,9 +34,7 @@ export default function Home() {
 					<h5 className="text-center">1000+</h5>
 				</div>
 			</main>
-
 			{/* What is Graux */}
-
 			<main className={styles.what}>
 				<h2>What is Graux?</h2>
 				<p className="pt-5">
@@ -59,13 +53,18 @@ export default function Home() {
 					different multichains to do a transaction in private entity
 				</p>
 			</main>
-			<main className="text-center hey">
-				<h1>Tools and Integrations</h1>
+			{/* Tools & Integrations */}
+			<main className={styles.tools}>
+				<h1>Tools & Integrations</h1>
 				<ul>
 					<li>BFT</li>
+					<li>|</li>
 					<li>Interoperability</li>
+					<li>|</li>
 					<li>Sidechain</li>
+					<li>|</li>
 					<li>Supply Chains</li>
+					<li>|</li>
 					<li>Oracle</li>
 				</ul>
 			</main>

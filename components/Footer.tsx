@@ -6,14 +6,14 @@ const Footer = () => {
 	return (
 		<footer className={footerStyles.footer}>
 			<div>
-				<Image src={`/images/graux.png`} alt="" width={200} height={82} />
+				<Image src={`/images/graux.png`} alt="" width={200} height={82} className={footerStyles.footerImage} />
 				<h5 className={footerStyles.copy}>
 					&#169; 2023 Graux Foundation. <br /> All rights reserved.
 				</h5>
 			</div>
-			<div className="socials text-center mt-4">
+			<div className={`${"text-center"} ${footerStyles.socials}`}>
 				<h3>Connect with Us!</h3>
-				<div className={[footerStyles.socialIcons, "mx-auto", "pt-4"].join(" ")}>
+				<div className={[footerStyles.socialIcons, "mx-auto", "pt-3"].join(" ")}>
 					<a href="">
 						<i className="fa-xl fa-brands fa-twitter"></i>
 					</a>
@@ -34,17 +34,23 @@ const Footer = () => {
 					</a>
 				</div>
 			</div>
-			<div className="links">
-				<h4>Graux</h4>
+			<div className="me-5">
+				<h3>Graux</h3>
 				<ul>
 					<li>
-						<Link href="#">Whitepaper</Link>
+						<Link href="#" className={footerStyles.footerLink}>
+							Whitepaper
+						</Link>
 					</li>
 					<li>
-						<Link href="#">Documentation</Link>
+						<Link href="#" className={footerStyles.footerLink}>
+							Documentation
+						</Link>
 					</li>
 					<li>
-						<Link href="#">Privacy Policy</Link>
+						<Link href="#" className={footerStyles.footerLink}>
+							Privacy Policy
+						</Link>
 					</li>
 				</ul>
 			</div>

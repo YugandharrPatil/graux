@@ -1,15 +1,22 @@
 .footer {
 	display: flex;
 	justify-content: space-between;
-	width: 90%;
+	align-items: center;
 	margin: auto;
+	height: 200px;
+	color: white;
 }
 
 /* Logo and Copyright */
+
+.footerImage {
+	margin-left: 10px;
+}
+
 .footer .copy {
 	font-size: 1.2rem;
-	margin-left: 15px;
-	color: white;
+	margin-left: 30px;
+	margin-top: 10px;
 }
 
 .links {
@@ -19,15 +26,18 @@
 }
 
 /* Socials */
+
+.socials {
+	padding-right: 75px;
+}
+
 .footer h3 {
-	color: white;
 	font-size: 1.6rem;
 }
 
 .socialIcons {
 	width: 250px;
 	height: 50px;
-	margin: 0 0 0 20px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -37,15 +47,25 @@
 }
 
 .socialIcons a:hover {
-	color: gold;
+	color: #cf8d00;
 }
 
 /* Links */
 
-.footer h4 {
-	color: white;
+.footerLinks {
+	padding-top: 20px;
 }
 
 .footer ul {
 	list-style: none;
+	padding-left: 0;
+}
+
+.footerLink {
+	text-decoration: none;
+	color: white;
+}
+
+.footerLink :hover {
+	color: #cf8d00;
 }
