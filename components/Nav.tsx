@@ -28,17 +28,17 @@ const Nav = () => {
 									Who
 								</Link>
 							</li>
-							<li className={`${navStyles.navItem} nav-item me-5`}>
+							<li className={`${navStyles.navItem} nav-item me-4`}>
 								<Link className="nav-link" href="/about">
 									About
 								</Link>
 							</li>
-							<li className={`${navStyles.navItem} nav-item me-5`}>
+							<li className={`${navStyles.navItem} nav-item me-4`}>
 								<Link className="nav-link" href="/contact">
 									Contact Us
 								</Link>
 							</li>
-							<li className={`${navStyles.navItem} nav-item me-5`}>
+							<li className={`${navStyles.navItem} nav-item me-3`}>
 								<Link className="nav-link" href="/contact">
 									Products
 								</Link>

@@ -12,14 +12,18 @@ export default function Home() {
 				<title>Graux</title>
 				<meta name="keywords" content="" />
 			</Head>
+
+			{/* heading */}
+
 			<main className={styles.heading}>
-				<div className="text-center mt-5">
-					<Image src={"/images/solana.png"} alt="" width={150} height={150} />
-					<h1 className="mb-0">
-						Solana <br /> Solution for <br /> Blockchains
-					</h1>
-				</div>
+				<Image src={"/images/solana.png"} alt="" width={150} height={150} />
+				<h1>
+					Solana <br /> Solution for <br /> Blockchains
+				</h1>
 			</main>
+
+			{/* stats */}
+
 			<main className={styles.stats}>
 				<div className="info mx-3">
 					<h3 className="mt-3">Transaction Speed (TPS)</h3>
